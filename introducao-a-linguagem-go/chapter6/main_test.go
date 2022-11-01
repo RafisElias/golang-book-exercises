@@ -7,7 +7,7 @@ func TestAvarege(t *testing.T) {
 	expect := 86.60
 
 	if result != expect {
-		t.Errorf("resultado '%.2f', experado '%.2f'", result, expect)
+		t.Errorf("resultado '%.2f', esperado '%.2f'", result, expect)
 	}
 }
 
@@ -19,7 +19,7 @@ func TestHalf(t *testing.T) {
 		t.Errorf("resultado do metade '%d', medate experada '%d'", resultHalf, expectHalf)
 	}
 	if resultIsOdd != expectIsOdd {
-		t.Errorf("resultado do número '%v', resultado experado '%v'", resultIsOdd, expectIsOdd)
+		t.Errorf("resultado do número '%v', resultado esperado '%v'", resultIsOdd, expectIsOdd)
 	}
 }
 
@@ -28,7 +28,7 @@ func TestGetBiggestNumber(t *testing.T) {
 	expect := 8875
 
 	if result != expect {
-		t.Errorf("resultado '%d', experado '%d'", result, expect)
+		t.Errorf("resultado '%d', esperado '%d'", result, expect)
 	}
 }
 
@@ -37,7 +37,7 @@ func TestMakeOddGenerator(t *testing.T) {
 	var expect uint = 1
 
 	if result() != expect {
-		t.Errorf("resultado '%d', experado '%d'", result(), expect)
+		t.Errorf("resultado '%d', esperado '%d'", result(), expect)
 	}
 }
 
@@ -46,6 +46,6 @@ func TestFibonacci(t *testing.T) {
 	expect := 144
 
 	if result != expect {
-		t.Errorf("resultado '%d', experado '%d'", result, expect)
+		t.Errorf("resultado '%d', esperado '%d'", result, expect)
 	}
 }

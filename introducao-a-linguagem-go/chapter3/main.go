@@ -6,8 +6,8 @@ import (
 	"os"
 	"strconv"
 
-	hc "github.com/RafisElias/golang-book/chapter3/src/heightConverter"
-	tc "github.com/RafisElias/golang-book/chapter3/src/temperatureConverter"
+	hc "github.com/RafisElias/golang-book-exercises/introducao-a-linguagem-go/chapter3/src/heightConverter"
+	tc "github.com/RafisElias/golang-book-exercises/introducao-a-linguagem-go/chapter3/src/temperatureConverter"
 )
 
 func main() {
